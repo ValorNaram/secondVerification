@@ -1,0 +1,58 @@
+{
+	"__MSG_extensionDescription__": {
+		"message": "Benachrichtigt den Nutzer wenn dieser sich auf einer Seite befindet, die zu einer offiziellen Domain gehört und der somit vertraut werden kann (z.B. persönliche Informationen können eingegeben werden). So bietet dieses Addon analog zum https eine zusätzliche Sicherheit. Das Addon benachrichtigt jedoch nur für Seiten, die an diesem Programm teilnehmen und als offizielle Seiten anerkannt wurden.",
+		"description": ""
+	},
+	"refreshDataBtn": {
+		"message": "Nachweis erneuern",
+		"description": ""
+	},
+	"verified_title": {
+		"message": "Vertrauenswürdige Domain!",
+		"description": ""
+	},
+	"verified_message": {
+		"message": "%s ist in einer Liste der vertrauenswürdigen Domains",
+		"description": ""
+	},
+	"notVerified_title": {
+		"message": "Verifizierung nicht unterstützt!",
+		"description": ""
+	},
+	"notVerified_message": {
+		"message": "Die Verbindung zu %s ist zwar verschlüsselt aber unterstützt secondVerification nicht",
+		"description": ""
+	},
+	"canting_title": {
+		"message": "Scheinheilige Domain!",
+		"description": ""
+	},
+	"canting_message": {
+		"message": "%s wollte sich verifizieren lassen, steht aber nicht in der vom ihm angebenenen Liste des Verifizierers",
+		"description": ""
+	},
+	"verifierNotKnown_title": {
+		"message": "Verifizierer nicht gefunden!",
+		"description": ""
+	},
+	"verifierNotKnown_message": {
+		"message": "Der von der Domain %s angegebene Verifizierer steht nicht auf der Liste der vertrauenswürdigen Dienste",
+		"description": ""
+	},
+	"pendingVerification_title": {
+		"message": "Geduld bitte...",
+		"description": ""
+	},
+	"pendingVerification_message": {
+		"message": "%s wird gerade verifiziert",
+		"description": ""
+	},
+	"notSupported_title": {
+		"message": "Not supported",
+		"description": ""
+	},
+	"notSupported_message": {
+		"message": "Nur über eine verschlüsselte Verbindung übertragende Seiten werden unterstützt",
+		"description": ""
+	}
+}

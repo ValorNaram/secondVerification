@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "SecondVerification",
+  "version": "1.0",
+
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "permissions": ["webRequest", "tabs", "http://*/*", "https://*/"],
+
+  "background": {
+  	"scripts": ["background_scripts/sv-background.js", "background_scripts/sv-services.js"]
+  },
+  "page_action": {
+  	"browser_style": true,
+  	"default_popup": "addressbar_scripts/sv-addressbar.html",
+  	"default_icon": {
+  		"16": "assets/unverified16.png",
+  		"32": "assets/unverified32.png"
+  	}
+  }
+
+}

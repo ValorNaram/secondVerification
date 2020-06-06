@@ -1,0 +1,58 @@
+{
+	"__MSG_extensionDescription__": {
+		"message": "Tells the user if the site they're visiting belongs to a trusted domain and can be therefore trusted (e.g. personal information can be entered). This provides an additional security analogue to the https security layer. It just notifies the user if a site participates and is officially approved by the whitelist service it specifies.",
+		"description": ""
+	},
+	"refreshDataBtn": {
+		"message": "Refresh verification result",
+		"description": ""
+	},
+	"verified_title": {
+		"message": "Trusted site!",
+		"description": "" 
+	},
+	"verified_message": {
+		"message": "%s is an official domain!",
+		"description": ""
+	},
+	"notVerified_title": {
+		"message": "Verification not supported!",
+		"description": ""
+	},
+	"notVerified_message": {
+		"message": "The connection to %s is encryted however it does not support secondVerification",
+		"description": ""
+	},
+	"canting_title": {
+		"message": "Canting site!",
+		"description": ""
+	},
+	"canting_message": {
+		"message": "%s requested the determination of its validity but does not appear on the list of the specified service",
+		"description": ""
+	},
+	"verifierNotKnown_title": {
+		"message": "Verifier not found",
+		"description": ""
+	},
+	"verifierNotKnown_message": {
+		"message": "The domain %s specified a verifier not on the service whitelist",
+		"description": ""
+	},
+	"pendingVerification_title": {
+		"message": "Verificating",
+		"description": ""
+	},
+	"pendingVerification_message": {
+		"message": "Verification of %s is in progress",
+		"description": ""
+	},
+	"notSupported_title": {
+		"message": "Not supported",
+		"description": ""
+	},
+	"notSupported_message": {
+		"message": "Support only for encryted connections to websites",
+		"description": ""
+	}
+}
